@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.all {
+  margin: 0;
+  border-width: 50px;
+  border-color: black;
+  border-style: solid;
+}
+.scroll {
+  padding: 300px 0px;
+  background: fixed
+    linear-gradient(
+      to bottom,
+      black,
+      black,
+      black,
+      white,
+      black,
+      black,
+      rgb(0, 0, 0)
+    );
+}
+p {
+  background: linear-gradient(
+    to right,
+    #e10a0a,
+    rgb(85, 255, 0),
+    rgb(30, 0, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: difference;
+}
+/* body {
+  background: linear-gradient(
+    to right,
+    rgba(30, 0, 255, 0.777),
+    rgb(85, 255, 0),
+    #e10a0ad6
+  );
+} */
